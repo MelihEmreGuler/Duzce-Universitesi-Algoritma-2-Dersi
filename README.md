@@ -9,4 +9,4 @@ Merhabalar
   Kendi bilgisayarinizda çalistirmak icin;
 -Proje dosyalarini indirdikten sonra, ilgili projedeki .sln uzantili dosyayi Microsoft Visual Studio 2022 ile acmaniz yeterlidir. 
 
-*** Tamamen kendi cozumlerimdir. Cozmeye devam ettikce kalan bolumleri de yukleyecegim.
+** Tamamen kendi cozumlerimdir. Cozmeye devam ettikce kalan bolumleri de yukleyecegim.
