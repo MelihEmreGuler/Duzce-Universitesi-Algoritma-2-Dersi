@@ -1,0 +1,3 @@
+﻿  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\Kaynak.cpp(46,16): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  DersNotlari.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\x64\Debug\DersNotlari.exe

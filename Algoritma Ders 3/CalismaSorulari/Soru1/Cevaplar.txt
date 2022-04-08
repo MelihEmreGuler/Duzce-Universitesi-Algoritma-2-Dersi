@@ -1,0 +1,7 @@
+a. dogru
+b. dogru
+c. yanlis
+d. yanlis
+e. dogru
+f. dogru
+g. yanlis-> nesne uretmişiz gibi degil de fonksiyon uretmisiz gibi algiliyor.

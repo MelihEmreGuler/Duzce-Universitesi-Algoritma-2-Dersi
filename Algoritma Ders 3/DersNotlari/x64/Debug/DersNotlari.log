@@ -1,0 +1,3 @@
+﻿  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 3\DersNotlari\Kaynak.cpp(57,19): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  DersNotlari.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 3\DersNotlari\x64\Debug\DersNotlari.exe

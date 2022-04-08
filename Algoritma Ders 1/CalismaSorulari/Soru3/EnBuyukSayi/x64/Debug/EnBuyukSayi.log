@@ -1,0 +1,5 @@
+﻿  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 1\CalismaSorulari\Soru3\EnBuyukSayi\Kaynak.cpp(9,18): warning C4101: 'max': yerel değişken başvurusu kaldırıldı
+C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 1\CalismaSorulari\Soru3\EnBuyukSayi\Kaynak.cpp(9,8): warning C4101: 'ortalama': yerel değişken başvurusu kaldırıldı
+C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 1\CalismaSorulari\Soru3\EnBuyukSayi\Kaynak.cpp(9,23): warning C4101: 'min': yerel değişken başvurusu kaldırıldı
+  EnBuyukSayi.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 1\CalismaSorulari\Soru3\EnBuyukSayi\x64\Debug\EnBuyukSayi.exe

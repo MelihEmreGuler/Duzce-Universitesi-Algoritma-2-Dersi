@@ -1,0 +1,3 @@
+﻿  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 2\DerstekiCozumluSorular\Ornek2\KolaMakinesi\KolaMakinesi\Kaynak.cpp(15,15): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+  KolaMakinesi.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algorithm Week 2\DerstekiCozumluSorular\Ornek2\KolaMakinesi\KolaMakinesi\x64\Debug\KolaMakinesi.exe
