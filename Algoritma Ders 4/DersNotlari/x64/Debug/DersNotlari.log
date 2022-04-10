@@ -1,3 +1,7 @@
-﻿  Kaynak.cpp
-C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\Kaynak.cpp(46,16): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+﻿  a.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\a.cpp(5,9): warning C4305: '=': 'double' iken 'float' olarak kesildi
+  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\Kaynak.cpp(63,16): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\Kaynak.cpp(67,16): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  Kod Üretiliyor...
   DersNotlari.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DersNotlari\x64\Debug\DersNotlari.exe

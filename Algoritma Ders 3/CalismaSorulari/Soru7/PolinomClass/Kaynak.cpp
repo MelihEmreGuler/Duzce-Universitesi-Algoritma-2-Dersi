@@ -7,7 +7,7 @@ public:
 	Polinom(int);
 	void katsayiAta();
 	void yaz();
-	void topla(Polinom &plinomNesnesi);
+	void topla(Polinom &);
 };
 Polinom::Polinom(int derece)
 {
@@ -47,10 +47,10 @@ void Polinom::yaz()
 	}
 	cout << ")";
 }
-void Polinom::topla(Polinom &plinomNesnesi)
+void Polinom::topla(Polinom &polinomNesnesi)
 {
 	for (int i = derece; i > -1; i--) {
-		katsayi[i] += plinomNesnesi.katsayi[i];
+		katsayi[i] += polinomNesnesi.katsayi[i];
 	}
 }
 int main() {
