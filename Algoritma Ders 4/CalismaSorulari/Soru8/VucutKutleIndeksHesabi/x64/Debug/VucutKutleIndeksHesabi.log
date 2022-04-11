@@ -1,0 +1,6 @@
+﻿  Kaynak.cpp
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\CalismaSorulari\Soru8\VucutKutleIndeksHesabi\Kaynak.cpp(24,33): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\CalismaSorulari\Soru8\VucutKutleIndeksHesabi\Kaynak.cpp(28,28): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\CalismaSorulari\Soru8\VucutKutleIndeksHesabi\Kaynak.cpp(41,33): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\CalismaSorulari\Soru8\VucutKutleIndeksHesabi\Kaynak.cpp(45,26): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+  VucutKutleIndeksHesabi.vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\CalismaSorulari\Soru8\VucutKutleIndeksHesabi\x64\Debug\VucutKutleIndeksHesabi.exe

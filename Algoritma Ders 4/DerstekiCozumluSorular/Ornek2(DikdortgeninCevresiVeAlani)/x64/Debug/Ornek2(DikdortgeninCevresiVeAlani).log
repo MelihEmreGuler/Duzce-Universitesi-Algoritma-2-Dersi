@@ -1,4 +1,4 @@
-﻿  Dikdortgen.cpp
+﻿  Uygulama.cpp
 C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DerstekiCozumluSorular\Ornek2(DikdortgeninCevresiVeAlani)\Nokta.h(10,23): warning C4244: 'return': 'int' - 'float' dönüşümü; veri kaybı olabilir
 C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DerstekiCozumluSorular\Ornek2(DikdortgeninCevresiVeAlani)\Nokta.h(11,23): warning C4244: 'return': 'int' - 'float' dönüşümü; veri kaybı olabilir
   Ornek2(DikdortgeninCevresiVeAlani).vcxproj -> C:\Users\MelihGuler\Desktop\Algorithm II\Algoritma Ders 4\DerstekiCozumluSorular\Ornek2(DikdortgeninCevresiVeAlani)\x64\Debug\Ornek2(DikdortgeninCevresiVeAlani).exe
