@@ -1,3 +1,4 @@
+//HELAL ETMÄ°YEM
 #include<iostream>
 using namespace std;
 class YerlesimBirimi {
@@ -63,7 +64,7 @@ int main() {
 	}
 	
 }
-//CÝKTÝ:
+//CÄ°KTÄ°:
 /*
 Yerlesim Biriminin ismini giriniz: Ankara
 	Nufusunu giriniz: 4890893
