@@ -1,69 +1,71 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
+
+// YerlesimBirimi sınıfı tanımlanır
 class YerlesimBirimi {
 public:
-	string isim;
-	int nufus, dogumSayisi, olenSayisi;
+    string isim;
+    int nufus, dogumSayisi, olenSayisi;
+    
+    // Yerleşim biriminin adını kullanıcıdan alır ve sınıfın 'isim' özelliğine kaydeder.
+    void isimAta() {
+        cout << "Yerlesim Biriminin ismini giriniz: ";
+        cin >> isim;
+    }
 
-	void isimAta(), nufusAta(), dogumAta(), olumAta(), 
-		dogumOraniBul(), olumOraniBul(); 
+    // Yerleşim biriminin nüfusunu kullanıcıdan alır ve sınıfın 'nufus' özelliğine kaydeder.
+    void nufusAta() {
+        cout << "Nufusunu giriniz: ";
+        cin >> nufus;
+    }
+
+    // Yerleşim birimindeki doğum sayısını kullanıcıdan alır ve sınıfın 'dogumSayisi' özelliğine kaydeder.
+    void dogumAta() {
+        cout << "Dogum sayisini giriniz: ";
+        cin >> dogumSayisi;
+    }
+
+    // Yerleşim birimindeki ölüm sayısını kullanıcıdan alır ve sınıfın 'olenSayisi' özelliğine kaydeder.
+    void olumAta() {
+        cout << "Olum sayisini giriniz: ";
+        cin >> olenSayisi;
+    }
+
+    // Yerleşim birimindeki doğum oranını hesaplar ve ekrana yazdırır.
+    void dogumOraniBul() {
+        double dogumOrani = double(dogumSayisi) / nufus;
+        cout << isim << " --- Dogum Orani: " << dogumOrani << endl;
+    }
+
+    // Yerleşim birimindeki ölüm oranını hesaplar ve ekrana yazdırır.
+    void olumOraniBul() {
+        double olumOrani = double(olenSayisi) / nufus;
+        cout << isim << " --- Olum Orani: " << olumOrani << endl;
+    }
 };
-void YerlesimBirimi::isimAta()
-{
-	string isim;
-	cout << "Yerlesim Biriminin ismini giriniz: ";
-	cin >> isim;
-	this->isim = isim;
-}
-void YerlesimBirimi::nufusAta()
-{
-	int nufus;
-	cout << "	Nufusunu giriniz: ";
-	cin >> nufus;
-	this->nufus = nufus;
-}
-void YerlesimBirimi::dogumAta()
-{
-	int dogumSayisi;
-	cout << "	Dogum sayisini giriniz: ";
-	cin >> dogumSayisi;
-	this->dogumSayisi = dogumSayisi;
-}
-void YerlesimBirimi::olumAta()
-{
-	int olenSayisi;
-	cout << "	Olum sayisini giriniz: ";
-	cin >> olenSayisi;
-	this->olenSayisi = olenSayisi;
-}
-void YerlesimBirimi::dogumOraniBul()
-{
-	double dogumOrani = 0;
-	dogumOrani = double(dogumSayisi) / nufus;
-	cout << "		" << isim << " --- Dogum Orani:" << dogumOrani;
-	cout << endl;
-}
-void YerlesimBirimi::olumOraniBul()
-{
-	double olumOrani;
-	olumOrani = double(olenSayisi) / nufus;
-	cout <<"		"<< isim << " --- Olum Orani:" << olumOrani;
-	cout << endl;
-}
 
 int main() {
-	YerlesimBirimi yer[2];
-	for (int i = 0; i < 2; i++) {
-		yer[i].isimAta();
-		yer[i].nufusAta();
-		yer[i].dogumAta();
-		yer[i].olumAta();
-		yer[i].dogumOraniBul();
-		yer[i].olumOraniBul();
+    // İki YerlesimBirimi nesnesi oluşturulur.
+    YerlesimBirimi yer1, yer2;
+
+    // İlk yerleşim birimi için kullanıcıdan gerekli bilgiler istenir.
+    cout << "1. Yerlesim Birimi" << endl;
+    yer1.isimAta();
+    yer1.nufusAta();
+    yer1.dogumAta();
+    yer1.olumAta();
+
+    // İkinci yerleşim birimi için kullanıcıdan gerekli bilgiler istenir.
+    cout << endl << "2. Yerlesim Birimi" << endl;
+    yer2.isimAta();
+    yer2.nufusAta();
+    yer2.dogum
+
 	}
 	
 }
-//C�KT�:
+//CİKTİ:
 /*
 Yerlesim Biriminin ismini giriniz: Ankara
 	Nufusunu giriniz: 4890893
